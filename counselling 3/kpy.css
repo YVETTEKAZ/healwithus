@@ -1,0 +1,482 @@
+.logo{
+    color: blue;
+font-size: 35px;
+font-family:monospace;
+padding-left: 20px;
+float: left;
+padding-top: 10px ; 
+ 
+
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(img2.jpg);
+    background-repeat: repeat-x;
+    
+background-size: contain;
+height: 80vh;
+color: aliceblue;
+text-align:center;
+font-size: medium;
+font-style: italic;
+}
+.main1{
+    width: 100%;
+    background:linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(hap.jpg);
+    background-repeat: repeat-x;
+    background-position: left;
+background-size:contain;
+height: 80vh;
+font-size:x-large;
+font-style: italic;
+color: aliceblue;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-align: left;
+}
+.main1 b{
+   color: aqua;
+   font-size: x-large;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main2{
+    position:absolute;
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(ky.jpg);
+    background-repeat: no no-repeat;
+    background-position: right;
+background-size:contain;
+height: 100vh;}
+.d{
+    background-color: grey;
+}
+}
+.d img{
+    width: 10px;;
+}
+ 
+.main1t{
+    text-align:left;
+    color:bisque;
+    font-size:xx-large;
+    text-decoration:solid;
+    margin: left 200px;
+}
+.main1t b{
+    color:gray
+}
+    
+/*.container{
+    display: flex;
+    flex-direction: column;
+    min-height: 80vh; 
+}
+.container .container1{
+   width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(img2.jpg);
+    background-repeat: no-repeat;
+}
+ .container .container1{
+    
+    
+background-size: contain;
+height: 80vh;
+color: black;
+
+*/
+.menu{
+    background:paleturquoise;
+    text-align: center;
+    height: 80px;
+
+}
+nav ul
+{
+float:right;
+margin-left: 100px;
+
+
+}
+
+nav ul li{
+display: inline-block;
+line-height: 50px;
+margin: 0 30px;
+}
+nav ul li a{
+color: rgb(0, 110, 255);
+font-size: 20px;
+padding: 8px 5px;
+border-radius: 3px;
+text-transform: uppercase;
+text-decoration: none;
+}
+a.active,a:hover{
+    background:orchid;
+    transition: .5s;
+    }
+    footer{
+        color: white;
+    font-size: 20px;
+    text-align: left;
+    
+    word-spacing: 300px;
+    background:black;
+    text-align: center;
+    height: 80px;
+    
+    
+    }
+    .text  {
+        
+        
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color:aliceblue;
+        font-size: x-large;
+    }
+   .text ul{
+margin-left: 300px;
+    }
+    
+     .text h1{
+        color:black;
+        font-size:larger;
+     }
+
+     .form{
+        width: 450px;
+        height: 400px;
+        background:linear-gradient(to top,rgba(0, 0, 0, 0.884)50px,rgba(0, 0, 0, 0.884)50px) ;
+        position:absolute;
+        top:100px;
+        left: 800px; 
+         border-radius: 70px;
+        text-align:center;
+        font-size: large;
+        color:antiquewhite;
+
+     }
+    
+     .form a{
+        text-decoration: none;
+        text-decoration: solid;
+        font-size: larger;
+        color: blue;
+    }
+.why{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    text-align: start;
+    display: list-item;
+    
+}
+    
+
+    
+
+    
+    nav ul li:hover .sub-menu{
+        display: block;
+        position: absolute;
+        background: black;
+         margin-top: 15px;
+         margin-left: -15px;
+    }
+         nav ul li:hover .sub-menu li{ 
+
+         display: block;
+        margin: 10px;
+
+        
+
+    }
+
+    .contact{
+        background-color: darkgray;
+    height: 100vh;
+    }
+    .contact h3{
+        color: blue;
+    }
+    .body{
+        
+        background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(kp1.jpg);
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: contain;
+        ;
+        
+    }
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');  
+    *{
+        font-family: 'Ubuntu', sans-serif;
+        margin: 0;
+        padding: 0;
+        box box-sizing: boarder-box;
+    }
+    
+    }
+    body{
+        min-height:100vh;
+        overflow-y: hidden;
+    }
+.container{
+position: relative;
+width: 100%;
+}
+.navigation{
+position: fixed;
+width: 300px;
+height: 100%;
+background-color: gray ;
+border-left:10px solid var(bisque);
+transition: 0.5s;
+overflow: hidden;
+}
+.navigation ul{
+position: absolute;
+top:0;
+left: 0;
+width: 100%;
+}
+.navigation ul li{
+position: relative;
+width: 100%;
+list style:none;
+ 
+}
+ 
+.navigation ul li a{
+    position:relative;
+    display: block;
+    text-decoration: solid ;
+    color:bisque;
+    width: 100%;
+    
+}
+.navigation ul li:hover a{
+    color:aquamarine;
+}
+
+.navigation ul li a .icon{
+position:absolute;
+display: block;
+min-width: 60px;
+height: 60px;
+line-height: 60px;
+text-align: center;
+}
+.navigation ul li a .icon ionicon{
+font-size:x-large;
+}
+.navigation ul li a .title{
+    position:relative;
+    display: block;
+    padding: 0 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: start ;
+}
+
+.navigation b{
+    color:pink;
+    font-size: x-large;
+}
+.maina{
+    position:absolute;
+    width:calc(100%-70px);
+    left: 300px;
+    min-height: 100vh;
+    
+    transition: 0.5s;
+
+}
+.topbar{
+    width: 1090px;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    background-color:pink;
+
+}
+.topbar2{
+  width: 1050px;  
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+background-color: paleturquoise;
+}
+    
+
+.toggle{
+    position: relative;
+    top: 0;
+    width: 70px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5rem;
+    cursor: pointer;
+}
+.search{
+    position: absolute;
+    width: 30%;
+
+}
+.search label input{
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    padding: 5px 20px;
+    padding-left:40px;
+    font-size: 18px;
+    outline:none ;
+    border:1px var(grey) ; 
+}
+.search label ion-icon{
+    position:absolute;
+    top: 0;
+    left:10px;
+    font-size: 1.5rem;
+}
+.user{
+    position:relative;
+    width: 100px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+.user img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.cardbox{
+    position: relative;
+    width: 100%;
+    padding: 20px;
+display: grid;
+grid-template-columns: repeat(4,1fr);
+grid-gap: 30px;
+}
+.cardbox .card{
+position: relative;
+background:darkgrey;
+padding: 50px;
+border-radius: 20px;
+display:grid;
+justify-content: space-between;
+cursor: pointer;
+box-shadow: 0 7px 25px rgba(0,0,0,0.08);
+
+}
+.cardbox .card2{
+    position: relative;
+    background-color:powderblue;
+    padding: 30px;
+    border-radius: 20px;
+    display: inline;
+    justify-content: space-between;
+    cursor: pointer;
+    box-shadow: 0 7px 25px rgba(0,0,0,0.08);
+    }
+    .cardbox2 .card4{
+        position: relative;
+        background-color:rgb(190, 176, 230);
+        padding: 100px;
+        border-radius: 2000px;
+        display: inline;
+        justify-content: space-between;
+        cursor: pointer;
+        box-shadow: 0 7px 25px rgba(0,0,0,0.08);
+        }
+        
+        .cardbox2 .card4a{
+            position: relative;
+            background-color:wheat;
+            padding: 100px;
+            border-radius: 2000px;
+            display: inline;
+            justify-content: space-between;
+            cursor: pointer;
+            box-shadow: 0 7px 25px rgba(0,0,0,0.08);
+        }
+        .cardbox2{
+            position:relative;
+            width: 90%;
+            padding: 30px;
+        display: flex;
+ 
+        grid-template-columns: repeat(4,1fr);
+        grid-gap: 20px;
+        }
+        .cardbox2 .card4a{
+            position: relative;
+            background-color:skyblue;
+            padding: 40px;
+            border-radius:200px;
+            display: inline;
+            justify-content: space-between;
+            cursor: pointer;
+            box-shadow: 0 7px 25px rgba(0,0,0,0.08);
+        }
+        .cardbox2{
+            position:relative;
+            width:80%;
+            padding: 30px;
+        display: flex;
+ 
+        grid-template-columns: repeat(4,1fr);
+            grid-gap: 20px}
+        .cardbox .card3{
+        position:relative;
+        background:white;
+        padding:40px;
+    border-radius: 20px;
+    box-shadow: 0 7px 25px rgba(0,0,0,0.08);
+    height: 300px;
+  
+    }
+.cardbox .card .numbers{
+position: relative;
+font-weight: 500;
+font-size: 2.5rem;
+color:black;
+.cardbox .card2 .numbers{
+    position: relative;
+font-weight: 500;
+font-size: 2.5rem;
+color:paleturquoise;
+}
+.cardbox .card .cardname{
+    margin-top: 5px;
+color:black;
+font-size: 1.1rem;
+}
+.cardbox .card:hover{
+    background:black;
+}
+.cardbox .card:hover .numbers,
+.cardbox .card:hover .cardname
+{
+color:white;
+     
+}
+
+.text{
+    text-align:left;
+}
+.quiz{
+    color:gray;
+    font-size: xx-large;
+}
